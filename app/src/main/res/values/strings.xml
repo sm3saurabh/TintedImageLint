@@ -1,7 +1,3 @@
 <resources>
-    <string name="app_name">MMTask</string>
-
-    <string name="player_x">Player %1$d</string>
-    <string name="hard">Hard Mode</string>
-    <string name="easy">Easy Mode</string>
+    <string name="app_name">Tinted Image Lint</string>
 </resources>
