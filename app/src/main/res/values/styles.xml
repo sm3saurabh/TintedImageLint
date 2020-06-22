@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="BoardCell">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/home_button_bg</item>
+        <item name="android:layout_margin">@dimen/medium_margin</item>
+    </style>
+
+    <style name="HomeSelectorButton">
+        <item name="android:background">@drawable/home_button_bg</item>
+        <item name="android:layout_margin">@dimen/medium_margin</item>
+        <item name="android:textAppearance">@style/HomeSmallText</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="HomeSmallText">
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="HomeTitleAppearance">
+        <item name="android:textSize">@dimen/large_text_size</item>
+        <item name="android:fontFamily">@font/annie_use_your_telescope</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+</resources>
