@@ -2,13 +2,13 @@ apply plugin: 'java-library'
 apply plugin: 'kotlin'
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    compileOnly fileTree(dir: 'libs', include: ['*.jar'])
 
     // For lint
-    implementation "com.android.tools.lint:lint-api:27.0.0"
-    implementation "com.android.tools.lint:lint-checks:27.0.0"
+    compileOnly "com.android.tools.lint:lint-api:27.0.0"
+    compileOnly "com.android.tools.lint:lint-checks:27.0.0"
 
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+    compileOnly "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
 }
 
 // Configure jar to register our lint registry
